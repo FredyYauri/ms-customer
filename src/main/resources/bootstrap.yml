@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ms-customer
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8090
+      fail-fast: true
