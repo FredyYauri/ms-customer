@@ -4,5 +4,5 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://ms-config-server:8090
+      uri: http://localhost:8090
       fail-fast: true
